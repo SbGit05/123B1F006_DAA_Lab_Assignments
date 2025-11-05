@@ -122,3 +122,29 @@ int main() {
     return 0;
 
 }
+
+/*--- Disaster Relief Resource Allocation ---
+
+Enter number of item types (max 10): 2
+Enter truck capacity (W in kg, max 10): 5
+
+Item 1:
+  Name: x
+  Weight (kg): 2
+  Utility value: 10
+
+Item 2:
+  Name: y
+  Weight (kg): 4
+  Utility value: 5
+
+============================================
+Maximum Utility achieved: 10
+============================================
+
+Items Selected for the Truck:
+------------------------------
+- x (Weight: 2 kg, Utility: 10)
+------------------------------
+Total Weight Carried: 2 kg
+Remaining Truck Capacity: 3 kg*/
