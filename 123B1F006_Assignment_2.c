@@ -98,3 +98,18 @@ int main() {
     return 0;
 
 }
+
+//--- Sorted by IMDB Rating (Descending) ---
+//Recent Flop                    | Rating: 6.5 | Year: 2024 | Watched: 100000
+//Comedy Hit                     | Rating: 7.2 | Year: 2023 | Watched: 1200000
+//The Great Movie                | Rating: 8.5 | Year: 2020 | Watched: 500000
+//Sci-Fi Saga                    | Rating: 8.8 | Year: 2018 | Watched: 800000
+//Old Classic                    | Rating: 9.0 | Year: 1995 | Watched: 300000
+
+//------------------------------------------------------
+//--- Sorted by Release Year (Descending) ---
+//Old Classic                    | Rating: 9.0 | Year: 1995 | Watched: 300000
+//Sci-Fi Saga                    | Rating: 8.8 | Year: 2018 | Watched: 800000
+//The Great Movie                | Rating: 8.5 | Year: 2020 | Watched: 500000
+//Comedy Hit                     | Rating: 7.2 | Year: 2023 | Watched: 1200000
+//Recent Flop                    | Rating: 6.5 | Year: 2024 | Watched: 100000
