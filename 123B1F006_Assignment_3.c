@@ -102,3 +102,12 @@ int main() {
     return 0;
 
 }
+
+//Boat Capacity (W): 50.00 kg
+
+//Item Selection Process:
+  //- Took all of Medicine Kit (Weight: 10.00, Utility: 100.00)
+  //- Took all of Drinking Water (Weight: 30.00, Utility: 150.00)
+  //- Took 50.00% of Protein Bars (Weight: 10.00, Utility: 40.00)
+
+//Total Maximum Utility Achieved: 290.00
