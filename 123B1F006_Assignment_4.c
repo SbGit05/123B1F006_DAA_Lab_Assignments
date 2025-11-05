@@ -163,3 +163,37 @@ int main() {
     return 0;
 
 }
+
+/*--- Initial Shortest Path Calculation ---
+
+Shortest Travel Times from Source 0:
+  Hospital 0: 0 minutes
+  Optimal Path: 0
+  Hospital 1: 4 minutes
+  Optimal Path: 0 -> 1
+  Hospital 2: 2 minutes
+  Optimal Path: 0 -> 2
+  Hospital 3: 6 minutes
+  Optimal Path: 0 -> 2 -> 4 -> 3
+  Hospital 4: 5 minutes
+  Optimal Path: 0 -> 2 -> 4
+  Hospital 5: 8 minutes
+  Optimal Path: 0 -> 2 -> 4 -> 3 -> 5
+--- Dynamic Update: Edge (2 -> 4) updated to 15 min ---
+
+
+--- Recalculated Shortest Path After Traffic Update ---
+
+Shortest Travel Times from Source 0:
+  Hospital 0: 0 minutes
+  Optimal Path: 0
+  Hospital 1: 4 minutes
+  Optimal Path: 0 -> 1
+  Hospital 2: 2 minutes
+  Optimal Path: 0 -> 2
+  Hospital 3: 9 minutes
+  Optimal Path: 0 -> 1 -> 3
+  Hospital 4: 17 minutes
+  Optimal Path: 0 -> 2 -> 4
+  Hospital 5: 11 minutes
+  Optimal Path: 0 -> 1 -> 3 -> 5*/
