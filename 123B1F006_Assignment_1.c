@@ -1,3 +1,10 @@
+// Design and implement a sorting algorithm using Merge Sort to efficiently arrange customer 
+// orders based on their timestamps. The solution should handle a large dataset (up to 1 million 
+// orders) with minimal computational overhead. Additionally, analyze the time complexity and 
+// compare it with traditional sorting techniques.
+
+//Shreedhar Bargaje- 123B1F006 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -89,4 +96,5 @@ int main() {
     printOrders(orders, n);
 
     return 0;
+
 }
