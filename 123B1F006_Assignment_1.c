@@ -98,3 +98,17 @@ int main() {
     return 0;
 
 }
+
+//--- Unsorted Orders ---
+//ID: 101, Time: 1635724800, Amount: 45.50
+//ID: 105, Time: 1635728400, Amount: 20.00
+//ID: 103, Time: 1635811200, Amount: 100.25
+//ID: 102, Time: 1635725400, Amount: 60.00
+//ID: 104, Time: 1635811000, Amount: 75.99
+
+//--- Sorted Orders by Timestamp ---
+//ID: 101, Time: 1635724800, Amount: 45.50
+//ID: 102, Time: 1635725400, Amount: 60.00
+//ID: 105, Time: 1635728400, Amount: 20.00
+//ID: 104, Time: 1635811000, Amount: 75.99
+//ID: 103, Time: 1635811200, Amount: 100.25
