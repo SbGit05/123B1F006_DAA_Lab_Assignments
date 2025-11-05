@@ -121,3 +121,6 @@ public class Assignment8 {
         }
     }
 }
+
+/*PS Best cost: 84.0
+Route: 0 -> 1 -> 3 -> 2 -> 0*/
