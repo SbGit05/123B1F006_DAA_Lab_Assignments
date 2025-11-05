@@ -140,3 +140,30 @@ public class Assignment7 {
         return false;
     }
 }
+
+/*=== University Course Scheduling System ===
+Enter total number of courses: 4
+Enter total number of rooms available: 2
+
+Enter size (number of students) for each course:
+30
+25
+40
+20
+
+Enter capacity for each room:
+35
+50
+
+Enter total number of students enrolled: 4
+Enter each student's course list (space-separated 0-based course IDs):
+0 1
+1 2
+2 3
+0 3
+
+Schedule found with 2 time slots:
+Course 0 ? Slot 1, Room 0
+Course 1 ? Slot 2, Room 0
+Course 2 ? Slot 1, Room 1
+Course 3 ? Slot 2, Room 1*/
